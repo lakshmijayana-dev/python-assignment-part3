@@ -1,0 +1,8 @@
+[2026-04-01 12:36:00.862061] ERROR in fetch_products: HTTPSConnectionPool(host='wrong-url.xyz', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='wrong-url.xyz', port=443): Failed to resolve 'wrong-url.xyz' ([Errno 11001] getaddrinfo failed)"))
+[2026-04-01 12:36:01.597327] ERROR in lookup_product: HTTP 404 error
+HTTP 404 error
+log_error("lookup_product", "HTTPError - 404 Not Found for product ID 999")
+# Task 1: File Handling
+# Task 2: API Integration
+# Task 3: Exception Handling
+# Task 4: Logging
